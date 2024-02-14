@@ -6,6 +6,7 @@ void main() {
   print(studentNames[studentNames.length - 2]);
   //Zahid
 
+
   // Updating List
   List animalNames = ["Lion", "Cat", "Duck", "Tiger", "Snake"];
   animalNames.replaceRange(1, 3, ["ABC"]);
@@ -30,19 +31,23 @@ void main() {
   print(countryNames2);
   //"China", "Turkey" replace Dubai
 
+
   //Sort Methods
   // Alphabet Ascending wise
   List fruitNames = ["Mango", "Apple", "Banana", "Peach", "Orange"];
   fruitNames.sort();
   print(fruitNames);
+  // Ascending Order [Apple, Banana, Mango, Orange, Peach]
 
   // Numeric Ascending wise
   List Numbers = [40, 60, 90, 20, 100, 10, 30];
   Numbers.sort();
   print(Numbers);
-
+  // Ascending Order [10, 20, 30, 40, 60, 90, 100]
+  
   // String Ascending wise
   List string = ["Kabeer", "Zahid", "Adeel", "Hafeeza", "Arifa", "Mehboob","10","35","25"];
   string.sort();
   print(string);
+  // Ascending Order [10, 25, 35, Adeel, Arifa, Hafeeza, Kabeer, Mehboob, Zahid]
 }
